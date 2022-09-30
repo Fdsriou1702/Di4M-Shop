@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: none;
+	list-style: none;
+}
+#content .menu-lateral{
+	background-color: rgb(5, 68, 104);
+	height: 100%;
+	width: 250px;
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+#content .menu-lateral .profil{
+	margin-bottom: 20px;
+	text-align: center;
+}
+#content .menu-lateral .profil img{
+	border-radius: 50%;
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border: 10px solid rgb(32, 44, 69);
+}
+#content .menu-lateral .profil h3{
+color: whitesmoke;
+margin-top: 20px;
+}
+#content .menu-lateral .profil p {
+	color: #FFF;
+	font-style: italic;
+}
+/*design de la section liste des elements*/
+#content .menu-lateral ul li a {
+	display: block;
+	padding: 10px 30px;
+	font-size: 16px;
+	position: relative;
+	border-bottom: 1px solid #10558D;
+	color: rgb(241, 237, 237 );
+}
+/*animation au survol des elements*/
+#content .menu-lateral ul li a:hover, .active {
+	background-color: white;
+	color: #0C7DB1 !important;
+	border-right: 1px solid rgb(5,68,104);
+}
+.section{
+	margin-left: 250px;
+	width: calc(100% - 250px);
+}
+.barre-haut{
+	background-color: rgb(23, 44, 69);
+	justify-content: center;
+	align-items: center;
+	padding: 0px 30px;
+	display: flex;
+	height: 50px;
+}
+.lien{
+	font-size: 2em;
+	color:#FAFBFF;
+	font-weight: bold;
+}
+.lien a:hover{
+	font-size: 1.2em;
+	color: rgb(135, 233, 254);
+}
+.banner{
+	height: 200px;
+	background-color: rgb(7, 105, 185);
+}
+.titre{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 40px;
+	font-size: 1.2em;
+}
+.trait{
+	background-color: rgb(255, 255, 224);
+	width: 50%;
+	height: 10px;
+	margin: 15px auto 0 auto;
+}
+.btn button{
+	font-size: 1.6em;
+	padding: 10px;
+	color: darkblue;
+}
+.btn button:hover{
+	color: whitesmoke;
+	background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
